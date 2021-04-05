@@ -12,25 +12,35 @@
 </head>
 
 <body>
-
-  <div style="text-align: center;">
-    <h1>Welcome to Mr Roboger Neighborhood</h1>
-    <p>Please enter your number of preference:</p>
-    <form>
-      <input id="user-input" type="text">
-      <br>
-      <div style="padding: 20px;">
-        <input class="btn btn-primary" type="submit" value="Submit">
-      </div>
-    </form>
+  <div style="background-color: rgb(32, 32, 32); padding: 20px; margin-bottom: 20px;">
+    <h4 style="margin-left: 65px; color:rgb(161, 208, 255);" id="msg"></h4>
   </div>
 
-  <div id="output">
+  <div class="container">
+    <div class="card">
+      <div class="card-body">
+        <p><b>Please enter a number of your preference:</b></p>
+        <form>
+          <input id="user-input" placeholder="Enter a number here" type="text">
+          <br>
+          <div style="padding-top: 20px;">
+            <input class="btn btn-primary" type="submit" value="Submit">
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <div id="output" class="container">
     <ol start="0">
 
     </ol>
   </div>
 
+  <div
+    style="margin-top:257px; padding: 15px; background-color: rgb(161, 208, 255); color: rgb(7, 7, 7); text-align: center;">
+    &copy; 2021. Website created by Ahmed Ghouzlane. All Rights Reserved.
+  </div>
 
   <script src="js/jquery-3.6.0.js"></script>
   <script src="js/scripts.js"></script>
