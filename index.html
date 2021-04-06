@@ -12,33 +12,43 @@
 </head>
 
 <body>
-  <div style="background-color: rgb(32, 32, 32); padding: 20px; margin-bottom: 20px;">
-    <h4 style="margin-left: 65px; color:rgb(161, 208, 255);" id="msg"></h4>
+  <div class="fixed-header">
+    <div class="container">
+      <nav>
+        <h6 style="color: white;
+        text-shadow: 1px 1px 2px black, 0 0 25px rgb(219, 219, 231), 0 0 5px rgb(162, 162, 207);" id="msg"></h6>
+      </nav>
+    </div>
   </div>
 
-  <div class="container">
-    <div class="card">
-      <div class="card-body">
+  <div id="page-design" class="container">
+    <div class="card-body">
+      <div id="main-page">
         <p><b>Please enter a number of your preference:</b></p>
         <form>
           <input id="user-input" placeholder="Enter a number here" type="text">
           <br>
-          <div style="padding-top: 20px;">
+          <div style="padding-top: 10px;">
             <input class="btn btn-primary" type="submit" value="Submit">
           </div>
         </form>
       </div>
+      <div id="output" style="display: none;">
+        <ol start="0">
+        </ol>
+        <div id="nan-error">
+          <p>Sorry, this program supports only numbers!</p>
+        </div>
+        <div id="space">
+        </div>
+        <div id="play-again" style="padding-top: 20px; text-align: center;">
+          <input class="btn btn-primary" type="submit" value="Play Again">
+        </div>
+      </div>
     </div>
   </div>
 
-  <div id="output" class="container">
-    <ol start="0">
-
-    </ol>
-  </div>
-
-  <div
-    style="margin-top:257px; padding: 15px; background-color: rgb(161, 208, 255); color: rgb(7, 7, 7); text-align: center;">
+  <div id="footer">
     &copy; 2021. Website created by Ahmed Ghouzlane. All Rights Reserved.
   </div>
 
