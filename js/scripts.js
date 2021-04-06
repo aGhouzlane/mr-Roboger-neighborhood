@@ -21,6 +21,7 @@ $(document).ready(function () {
     $('#output').hide();
     $('ol').empty()
     $('#nan-error').hide();
+    $("#user-input").val("");
   });
 
   $(function () {
