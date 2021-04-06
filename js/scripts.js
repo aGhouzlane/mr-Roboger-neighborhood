@@ -4,9 +4,8 @@ $(document).ready(function () {
     e.preventDefault();
 
     const userInputs = document.getElementById("user-input").value;
-    if (!Number(userInputs)) {
+    if (!Number(userInputs) && userInputs != 0 || userInputs == "") {
       $('#nan-error').show();
-      $('#space').show();
     }
 
     const output = beepBoopBemyfriend(userInputs);
