@@ -25,7 +25,7 @@ $(document).ready(function () {
   });
 
   $(function () {
-    showText("#msg", "Welcome to Mr. Roboger Neighborhood!", 0, 50);
+    showText("#msg", "Welcome to Mr. Roboger Neighborhood !", 0, 50);
   });
 
   var showText = function (target, message, index, interval) {
